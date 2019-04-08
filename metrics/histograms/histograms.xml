@@ -55009,7 +55009,9 @@ uploading your change for review.
 </histogram>
 
 <histogram name="Memory.AudioService.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+    expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in a audio service process. This is
@@ -55109,8 +55111,9 @@ uploading your change for review.
   </summary>
 </histogram>
 
-<histogram name="Memory.Browser.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+<histogram name="Memory.Browser.ResidentSet" units="MiB" expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in the browser process. This is influenced
@@ -56091,7 +56094,9 @@ uploading your change for review.
 </histogram>
 
 <histogram name="Memory.Extension.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+    expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in an extension process. This is influenced
@@ -56175,7 +56180,9 @@ uploading your change for review.
   </summary>
 </histogram>
 
-<histogram name="Memory.Gpu.ResidentSet" units="MiB" expires_after="2019-01-31">
+<histogram name="Memory.Gpu.ResidentSet" units="MiB" expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in the GPU process. This is influenced by
@@ -56729,8 +56736,9 @@ uploading your change for review.
   </summary>
 </histogram>
 
-<histogram name="Memory.Renderer.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+<histogram name="Memory.Renderer.ResidentSet" units="MiB" expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in a renderer process. This is influenced by
@@ -57387,8 +57395,9 @@ uploading your change for review.
   </summary>
 </histogram>
 
-<histogram name="Memory.Total.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+<histogram name="Memory.Total.ResidentSet" units="MiB" expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in all processes. This is influenced by
@@ -57454,8 +57463,9 @@ uploading your change for review.
   </summary>
 </histogram>
 
-<histogram name="Memory.Utility.ResidentSet" units="MiB"
-    expires_after="2019-01-31">
+<histogram name="Memory.Utility.ResidentSet" units="MiB" expires_after="never">
+<!-- expires-never: Generic system health metric used to diagnose various performance issues. -->
+
   <owner>fdoray@chromium.org</owner>
   <summary>
     The size of the resident memory in a utility process. This is influenced by
