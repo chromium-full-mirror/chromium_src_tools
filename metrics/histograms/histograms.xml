@@ -27027,6 +27027,7 @@ uploading your change for review.
 
 <histogram name="Download.DangerousFile.Reason" enum="DangerousFile.Reason"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Indicates why a download is marked as DANGEROUS_FILE. Grouped by reason,
@@ -27182,6 +27183,7 @@ uploading your change for review.
 
 <histogram name="Download.DownloadDangerPrompt"
     enum="SBClientDownloadExtensions">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records when user is shown the download danger prompt while attempting to
@@ -28287,6 +28289,7 @@ uploading your change for review.
 
 <histogram name="Download.TargetConnectionSecurity"
     enum="DownloadConnectionSecurity" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The connection security state of a download, indicating whether its final
@@ -34127,6 +34130,7 @@ uploading your change for review.
 
 <histogram name="ExtensionBlacklist.BlacklistInstalled"
     enum="ExtensionLocation">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of extensions that were blacklisted when already installed,
@@ -34137,6 +34141,7 @@ uploading your change for review.
 
 <histogram name="ExtensionBlacklist.BlockCRX" enum="ExtensionLocation"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of extensions that have been blocked from installing grouped by
@@ -34146,6 +34151,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="ExtensionBlacklist.SilentInstall" enum="ExtensionLocation">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of extensions that have been silently installed in a blacklisted
@@ -34158,6 +34164,7 @@ uploading your change for review.
 
 <histogram name="ExtensionBlacklist.UnblacklistInstalled"
     enum="ExtensionLocation" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of extensions that were unblacklisted when installed, grouped by
@@ -86549,6 +86556,7 @@ uploading your change for review.
 <histogram
     name="PasswordManager.IsSyncPasswordHashSavedForAdvancedProtectionUser"
     enum="IsSyncPasswordHashSaved" expires_after="2019-10-05">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     This metric is recorded shortly after Chrome Startup, only for Advanced
@@ -87622,6 +87630,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.ChromeSettingsAction"
     enum="PasswordProtectionWarningAction">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how a user interacts with the chrome://settings page that displays
@@ -87633,6 +87642,7 @@ uploading your change for review.
 <histogram
     name="PasswordProtection.GaiaPasswordReusesBeforeGaiaPasswordChanged"
     units="reuses">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of Gaia password reuse warnings shown to user before user changes
@@ -87645,6 +87655,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.InterstitialAction"
     enum="PasswordProtectionWarningAction">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how a user interacts with the password protection interstitial
@@ -87668,6 +87679,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.InterstitialString"
     enum="PasswordProtectionInterstitialStringType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the type of strings shown to the user on chrome://reset-password
@@ -87677,6 +87689,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.ModalWarningDialogAction"
     enum="PasswordProtectionWarningAction">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how a user interacts with the password protection modal warning
@@ -87715,6 +87728,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.PageInfoAction"
     enum="PasswordProtectionWarningAction">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how a user interacts with page info bubble that displays the
@@ -87725,6 +87739,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="PasswordProtection.PageZoomFactor">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Reports the zoom factor for a login page, when the protected password is
@@ -87734,6 +87749,7 @@ uploading your change for review.
 
 <histogram base="true" name="PasswordProtection.PasswordAlertModeOutcome"
     enum="PasswordProtectionRequestOutcome">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the outcome of the password alert mode, indicating if password alert
@@ -87743,6 +87759,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.PasswordProtectionResponseOrErrorCode"
     enum="CombinedHttpResponseAndNetErrorCode">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Response or error codes for PasswordProtectionRequest. Logged after chrome
@@ -87764,6 +87781,7 @@ uploading your change for review.
 
 <histogram name="PasswordProtection.PasswordReuseSyncAccountType"
     enum="PasswordProtectionSyncAccountType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     When password protection service detects a reuse of Chrome sync password,
@@ -87786,6 +87804,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="PasswordProtection.RequestNetworkDuration" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time it takes for PasswordProtectionService request. It is not recorded
@@ -87795,6 +87814,7 @@ uploading your change for review.
 
 <histogram base="true" name="PasswordProtection.RequestOutcome"
     enum="PasswordProtectionRequestOutcome">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the outcome of the password protection request, indicating if
@@ -87829,6 +87849,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="PasswordProtection.Verdict" enum="PasswordProtectionVerdict">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Verdict types returned by Safe Browsing server for a password protection
@@ -87838,6 +87859,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="PasswordProtection.VisualFeatureExtractionDuration" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time it takes to extract the visual features of a login page before
@@ -102425,6 +102447,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.AdvancedProtection.APTokenFetchStatus"
     enum="GoogleServiceAuthError">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For users known to be already enrolled in Advanced Proection, records the
@@ -102437,6 +102460,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.AdvancedProtection.TokenFetchStatus"
     enum="GoogleServiceAuthError">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the service error of refreshing OAuth2 access token during fetching
@@ -102467,6 +102491,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.ContentsSize.Height" units="DIPs"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the height of content area when the user opens a new browser window
@@ -102476,6 +102501,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.ContentsSize.Width" units="DIPs"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the width of content area when the user opens a new browser window
@@ -102497,6 +102523,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.DynamicUpdateResult"
     enum="SBFileTypeUpdateResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The result of reading/parsing/accepting a new proto for the FileTypePolices
@@ -102510,6 +102537,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.DynamicUpdateTypeCount"
     units="number of file types" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Number of file types (aka file extensions) present in the FileTypePolicies
@@ -102523,6 +102551,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.DynamicUpdateVersion"
     units="FileTypePolicies Version">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Integer version number citing which version of the proto data chrome just
@@ -102536,6 +102565,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.ResourceBundleResult"
     enum="SBFileTypeUpdateResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The result of reading/parsing/accepting a new proto for the FileTypePolices
@@ -102548,6 +102578,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.ResourceBundleTypeCount"
     units="number of file types" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Number of file types (aka file extensions) present in the FileTypePolicies
@@ -102560,6 +102591,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.FileTypeUpdate.ResourceBundleVersion"
     units="FileTypePolicies Version">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Integer version number citing which version of the proto data chrome just
@@ -102571,23 +102603,27 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.FontSize.Default" units="pts" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Records the default font size on user startup.</summary>
 </histogram>
 
 <histogram name="SafeBrowsing.FontSize.DefaultFixed" units="pts"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Records the default fixed font size on user startup.</summary>
 </histogram>
 
 <histogram name="SafeBrowsing.FontSize.Minimum" units="pts" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Records the minimum font size on user startup.</summary>
 </histogram>
 
 <histogram name="SafeBrowsing.FontSize.MinimumLogical" units="pts"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Records the minimum logical font size on user startup.</summary>
 </histogram>
@@ -102661,6 +102697,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.NavigationObserver.NavigationEventCleanUpCount"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Count of how many NavigationEvents get removed in each periodic clean up.
@@ -102670,6 +102707,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.NotificationImageReporter.NetError"
     enum="NetErrorCodes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The net error code for failed reports sent by NotificationImageReporter, or
@@ -102700,6 +102738,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.Pref.Extended" enum="BooleanEnabled">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Whether the Safe Browsing extended reporting service is currently enabled.
@@ -102708,6 +102747,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.Pref.General" enum="BooleanEnabled">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Whether the Safe Browsing service is currently enabled. Recorded for all
@@ -102764,6 +102804,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.ReferrerAttributionResult"
     enum="SafeBrowsingAttributionResultTypes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The result of referrer attribution, including different types of success or
@@ -102773,6 +102814,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.ReferrerHasInvalidTabID" enum="BooleanInvalid">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Number of times referrer attribution encounters an invalid tab ID. This is
@@ -102782,6 +102824,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.ReferrerURLChainSize">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The length of referrer URL chain we get from referrer attribution. This is
@@ -102948,6 +102991,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.V4Database.Size" units="KB">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The size of the SafeBrowsing database or file on disk in kilobytes, after
@@ -102957,6 +103001,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4DatabaseOpen.Time" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time it takes to parse and load the SafeBrowsing database from disk, in
@@ -103026,6 +103071,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4GetHash.CacheHit.Result"
     enum="SafeBrowsingV4FullHashCacheResult">
+  <owner>vakh@chromium.org</owner>
   <owner>kcarattini@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Track cache hits for V4 full hashes.</summary>
@@ -103033,6 +103079,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4GetHash.Check.Result"
     enum="SafeBrowsingV4GetHashCheckResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>kcarattini@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>Track get hash response hits for V4 full hash requests.</summary>
@@ -103040,8 +103087,9 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4GetHash.Network.Result"
     enum="CombinedHttpResponseAndNetErrorCode">
-  <owner>kcarattini@google.com</owner>
   <owner>vakh@google.com</owner>
+  <owner>kcarattini@google.com</owner>
+  <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Response or error codes from the SafeBrowsing Pver4 service. Logged after a
     GetHash or request finishes to capture the response code or error code for
@@ -103050,6 +103098,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.V4GetHash.Network.Time" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>kcarattini@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
@@ -103060,6 +103109,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4GetHash.Parse.Result"
     enum="SafeBrowsingParseV4HashResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>kcarattini@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
@@ -103069,6 +103119,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4GetHash.Result"
     enum="SafeBrowsingV4OperationResult">
+  <owner>vakh@chromium.org</owner>
   <owner>kcarattini@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
@@ -103133,6 +103184,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4LocalDatabaseManager.AreAllStoresAvailableNow"
     enum="SafeBrowsingStoreAvailabilityResult">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the outcome of a check to AreAllStoresAvailableNow. This will be
@@ -103156,6 +103208,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessFullUpdate.ApplyUpdate.Result"
     enum="SafeBrowsingV4ApplyUpdateResult">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of applying a full update for a store received from PVer4
@@ -103165,6 +103218,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessFullUpdate.ApplyUpdate.Time" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to process a SafeBrowsing list full update. It
@@ -103177,6 +103231,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessFullUpdate.DecodeAdditions.Result"
     enum="SafeBrowsingV4DecodeResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of decoding the Rice-encoded list of additions of 4-byte
@@ -103188,6 +103243,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessFullUpdate.DecodeAdditions.Time"
     units="ms" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to decode the Rice-encoded additions to the
@@ -103223,6 +103279,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.ApplyUpdate.Result"
     enum="SafeBrowsingV4ApplyUpdateResult">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of applying a partial update for a store received from
@@ -103232,6 +103289,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.ApplyUpdate.Time"
     units="ms" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to process a SafeBrowsing list partial update. It
@@ -103246,6 +103304,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.DecodeAdditions.Result"
     enum="SafeBrowsingV4DecodeResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of decoding the Rice-encoded list of additions of 4-byte
@@ -103257,6 +103316,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.DecodeAdditions.Time"
     units="ms" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to decode the Rice-encoded additions to the
@@ -103266,6 +103326,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.DecodeRemovals.Result"
     enum="SafeBrowsingV4DecodeResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of decoding the Rice-encoded list of indexes of hash
@@ -103276,6 +103337,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ProcessPartialUpdate.DecodeRemovals.Time"
     units="ms" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to decode the Rice-encoded removals from the
@@ -103312,6 +103374,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ReadFromDisk.ApplyUpdate.Result"
     enum="SafeBrowsingV4ApplyUpdateResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of applying an ListUpdateResponse read from disk after
@@ -103321,6 +103384,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ReadFromDisk.ApplyUpdate.Time" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to read, parse, and process a SafeBrowsing list
@@ -103334,6 +103398,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ReadFromDisk.DecodeAdditions.Result"
     enum="SafeBrowsingV4DecodeResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the result of decoding the Rice-encoded list of additions of 4-byte
@@ -103344,6 +103409,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4ReadFromDisk.DecodeAdditions.Time" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes to decode the Rice-encoded additions to the
@@ -103380,6 +103446,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4Store.IsStoreAvailable.ValidStore"
     enum="BooleanAvailable">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how often IsStoreAvailable fails due to an invalid store identifier.
@@ -103389,6 +103456,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.V4Store.IsStoreValid" enum="BooleanValid">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records whether a store has valid data, when it is queried. This is logged
@@ -103399,6 +103467,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4StoreRead.Result"
     enum="SafeBrowsingV4StoreReadResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the parsing results of reading the SafeBrowsing V4 store file from
@@ -103420,6 +103489,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4StoreVersionRead" units="version number"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Version of V4Store read from a store file. This would be useful in tracking
@@ -103429,6 +103499,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4StoreWrite.Result"
     enum="SafeBrowsingV4StoreWriteResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the results of writing the SafeBrowsing V4 store file to disk.
@@ -103449,6 +103520,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.V4UnusedStoreFileExists" enum="BooleanExists">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the presence of store files that were previously created but have been
@@ -103470,6 +103542,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4Update.Network.Result"
     enum="CombinedHttpResponseAndNetErrorCode">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Response or error codes when fetching updates from the SafeBrowsing PVer4
@@ -103479,6 +103552,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4Update.Parse.Result"
     enum="SafeBrowsingParseV4UpdateResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track the parsing results of a status 200 GetV4Update request.
@@ -103486,6 +103560,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SafeBrowsing.V4Update.ResponseSizeKB" units="KB">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The size of the response sent by the SafeBrowsing PVer4 service, in KB.
@@ -103494,6 +103569,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4Update.Result"
     enum="SafeBrowsingV4OperationResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Track return status from V4 update attempts. The buckets of this histogram
@@ -103503,6 +103579,7 @@ uploading your change for review.
 
 <histogram name="SafeBrowsing.V4Update.TimedOut" enum="BooleanTimedOut"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>True if a PVer4 update request timed out.</summary>
 </histogram>
@@ -103940,6 +104017,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.Delay" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that SafeBrowsing actually delayed the browsing experience. It
@@ -103951,6 +104029,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.Delay.MainFrame" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that SafeBrowsing actually delayed the browsing experience. It
@@ -103961,6 +104040,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.Delay.Subresource" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that SafeBrowsing actually delayed the browsing experience. It
@@ -103988,6 +104068,7 @@ uploading your change for review.
 
 <histogram name="SB2.DownloadChecks" enum="SB2DownloadChecks"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records results of SafeBrowsing download check, including both url check and
@@ -104029,6 +104110,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.DownloadUrlCheckDuration" units="ms" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>The time it takes for SafeBrowsing to check a download url.</summary>
 </histogram>
@@ -104360,6 +104442,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.Network" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that it took to receive a response from the Google SafeBrowsing
@@ -104583,6 +104666,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.RemoteCall.CanCheckUrl" enum="BooleanCanCheckUrl">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Count of how many URLs were actually checked vs skipped via
@@ -104593,6 +104677,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.CanUseLocalBlacklists"
     enum="SB2RemoteCallCanUseLocalBlacklists" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Indicates whether the local Safe Browsing blacklists can be used on this
@@ -104601,6 +104686,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.RemoteCall.CheckDelta" units="microseconds">
+  <owner>vakh@chromium.org</owner>
   <owner>csharrison@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
@@ -104651,6 +104737,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.RemoteCall.Elapsed" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Latency of URL-classification API calls from Chrome via
@@ -104678,6 +104765,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.InternalErrorStatusCode2"
     enum="GooglePlayServicesConnectionResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The status code provided by GmsCore if it is unable to respond to a URL
@@ -104690,6 +104778,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.LocalBlacklistsAgeInMs" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Indicates the time since the local blacklists were successfully updated
@@ -104701,6 +104790,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.LocalBlacklistsLookupResult"
     enum="SB2RemoteCallLocalBlacklistsLookupResult">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Indicates the result of local Safe Browsing blacklist lookup on Android.
@@ -104711,6 +104801,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.LocalBlacklistsUpdateSucceeded"
     enum="BooleanSuccess" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Indicates the result of local blacklists' update. Logged each time an update
@@ -104720,6 +104811,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.RemoteCall.Result" enum="SB2RemoteCallResult">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Result of URL-classification API calls from Chrome via
@@ -104731,6 +104823,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.ThreatSubType.PotentiallyHarmfulApp"
     enum="SB2RemoteCallThreatSubType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The threat sub-type annotated for URLs classified as PHA via remote calls
@@ -104741,6 +104834,7 @@ uploading your change for review.
 
 <histogram name="SB2.RemoteCall.ThreatSubType.SocialEngineering"
     enum="SB2RemoteCallThreatSubType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The threat sub-type annotated returned for URLs classified as social
@@ -104776,6 +104870,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SB2.ResourceTypes2" enum="ContentResourceType2">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Resource types of resources that were inspected by Safe Browsing in the
@@ -104983,6 +105078,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.CheckDownloadStats"
     enum="SBClientDownloadCheckDownloadStats">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -104997,6 +105093,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.CheckWhitelistResult"
     enum="WhitelistedDownloadType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each download supported by the SafeBrowsing download protection service,
@@ -105007,6 +105104,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgFileArchivedBinariesCount" units="count"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The original number of archived_binaries found in a DMG-like file when it's
@@ -105017,6 +105115,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgFileFailureByType"
     enum="SBClientDownloadExtensions" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of DMG-like file types that failed to be successfully analyzed by the
@@ -105038,6 +105137,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgFileHasExecutableByType"
     enum="SBClientDownloadExtensions" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of DMG-like file types which were analyzed by the SafeBrowsing
@@ -105047,6 +105147,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgFileHasNoExecutableByType"
     enum="SBClientDownloadExtensions" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of DMG-like file types which were analyzed by the SafeBrowsing
@@ -105069,6 +105170,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgFileSuccessByType"
     enum="SBClientDownloadExtensions">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of DMG-like file types that were successfully analyzed by the
@@ -105078,6 +105180,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DmgTooBigToUnpack" enum="Boolean"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records whether a given DMG download was too big to unpack, as specified by
@@ -105088,6 +105191,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadExtensions"
     enum="SBClientDownloadExtensions">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105098,6 +105202,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadFileHasDetachedSignatures"
     enum="Boolean" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     A Mac-only metric that records whether a given download contains a detached
@@ -105107,6 +105212,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.DownloadFileHasDmgSignature" enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     A Mac-only metric that records whether a given download file is a
@@ -105118,6 +105224,7 @@ uploading your change for review.
 <histogram
     name="SBClientDownload.DownloadFileWithoutDiskImageExtensionHasKolySignature"
     enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records whether download files without an Apple disk image file extension
@@ -105128,6 +105235,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.DownloadRequestDuration" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105141,6 +105249,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.DownloadRequestNetError" enum="NetErrorCodes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105149,6 +105258,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.DownloadRequestNetworkDuration" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105159,6 +105269,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadRequestNetworkStats"
     enum="SBClientDownloadCheckDownloadStats">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105168,6 +105279,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.DownloadRequestPayloadSize" units="bytes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105177,6 +105289,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadRequestResponseCode"
     enum="HttpResponseCode">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105187,6 +105300,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadRequestTimeoutDuration" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105199,6 +105313,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.DownloadRequestTimeoutStats"
     enum="SBClientDownloadCheckDownloadStats" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105210,6 +105325,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ExtractDmgFeaturesTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>rsesek@chromium.org</owner>
   <summary>
@@ -105220,6 +105336,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ExtractImageHeadersTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>grt@chromium.org</owner>
   <summary>
@@ -105229,6 +105346,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.ExtractRarFeaturesTime" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the time it takes for the SafeBrowsing download service to extract
@@ -105238,6 +105356,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ExtractSignatureFeaturesTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105248,6 +105367,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.ExtractZipFeaturesTime" units="ms">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105291,6 +105411,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.RarFileArchivedBinariesCount" units="count">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The original number of archived_binaries found in a rar-like file when it's
@@ -105301,6 +105422,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.RarFileHasArchiveButNoExecutable"
     enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each rar file analyzed by the SafeBrowsing download service, records
@@ -105310,6 +105432,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.RarFileHasExecutable" enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each rar file analyzed by the SafeBrowsing download service, records if
@@ -105318,6 +105441,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.RarFileSuccess" enum="BooleanSuccess">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each rar file analyzed by the SafeBrowsing download service, records if
@@ -105327,6 +105451,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.RarHeadersEncrypted" enum="Boolean"
     expires_after="M79">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records whether the RAR headers are encrypted, preventing any meaningful
@@ -105337,6 +105462,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.RarOpenSuccess" enum="BooleanSuccess">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each rar file analyzed by the SafeBrowsing download service, records if
@@ -105347,6 +105473,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.RarValidArchive" enum="BooleanSuccess">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each rar file analyzed by the SafeBrowsing download service, records if
@@ -105358,6 +105485,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.SignedBinaryDownload"
     enum="SBClientDownloadIsSignedBinary" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105380,6 +105508,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.UnsupportedScheme"
     enum="SBClientDownloadExtensions">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how often different file extensions are downloaded with schemes that
@@ -105388,6 +105517,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.ZipFileArchivedBinariesCount" units="count">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The original number of archived_binaries found in a zip-like file when it's
@@ -105411,6 +105541,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ZipFileFailureByType"
     enum="SBClientDownloadExtensions" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of ZIP-like file types that failed to be successfully analyzed by the
@@ -105420,6 +105551,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ZipFileHasArchiveButNoExecutable"
     enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105430,6 +105562,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.ZipFileHasExecutable" enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105440,6 +105573,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ZipFileLocalFileHeadersSkipped" units="count"
     expires_after="M75">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of Local File Headers (identified by their magic number) present
@@ -105452,6 +105586,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ZipFileSuccess" enum="BooleanSuccess"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each zip file analyzed by the SafeBrowsing download service, records if
@@ -105461,6 +105596,7 @@ uploading your change for review.
 
 <histogram name="SBClientDownload.ZipFileSuccessByType"
     enum="SBClientDownloadExtensions">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Counts of ZIP-like file types were successfully analyzed by the SafeBrowsing
@@ -105469,6 +105605,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientDownload.ZipTooBigToUnpack" enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records whether a given ZIP download was too big to unpack, as specified by
@@ -105479,6 +105616,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.ClassificationStart" enum="BooleanHit"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of pages that we could have possibly classified (essentially the
@@ -105490,6 +105628,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.IPBlacklistRequestNetError"
     enum="NetErrorCodes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The net error code for all ClientMalwareRequest URLFetchers.
@@ -105497,6 +105636,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientMalware.IPBlacklistRequestPayloadSize" units="bytes">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The size of the upload data for ClientMalwareRequest URLFetchers.
@@ -105505,6 +105645,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.IPBlacklistRequestResponseCode"
     enum="HttpResponseCode">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For ClientMalwareRequest URLFetchers with successful status, the HTTP
@@ -105514,6 +105655,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.PreClassificationCheckFail"
     enum="SBClientDetectionPreClassificationCheckFail" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the number of malware classifications that were skipped because a
@@ -105523,6 +105665,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.ResourceUrlMatchedBadIp"
     enum="BooleanMatchedBadIp" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     True if at least one resource url matched the malware IP list. Recorded when
@@ -105531,6 +105674,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientMalware.SentReports" enum="SBClientMalwareSentReports">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Measures the success rate of sending malware reports. Sending a report can
@@ -105541,6 +105685,7 @@ uploading your change for review.
 
 <histogram name="SBClientMalware.ServerDeterminesMalware"
     enum="BooleanIsMalware">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>The counts for malware verdicts given by server side model.</summary>
 </histogram>
@@ -105559,6 +105704,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.CancelClassificationReason"
     enum="SBClientPhishingCancelClassificationReason" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The counts for various reasons why an in-progress phishing classification
@@ -105580,6 +105726,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ClassificationStart" enum="BooleanHit"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of pages that we could have possibly classified (essentially the
@@ -105591,6 +105738,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ClientDeterminesPhishing"
     enum="BooleanIsPhishing">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The counts for phishing verdicts given by client side model.
@@ -105609,6 +105757,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ClientModelStatus"
     enum="SBClientPhishingClientModelStatus" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The counts for various model status codes that we get after loading a new
@@ -105677,6 +105826,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.IllegalFeatureValue">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of features which were omitted from phishing classification
@@ -105712,6 +105862,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.PreClassificationCheckFail"
     enum="SBClientDetectionPreClassificationCheckFail" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the number of phishing classifications that were skipped because a
@@ -105721,6 +105872,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ReportLimitSkipped" enum="BooleanHit"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of phishing classifications that were previously cached as being
@@ -105729,6 +105881,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.RequestNotSerialized">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of phishing classifier pingbacks that were skipped because
@@ -105737,6 +105890,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.RequestSatisfiedFromCache" enum="BooleanHit">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of times that a cached phishing classification result was used,
@@ -105746,6 +105900,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ScorerCreationStatus"
     enum="SBClientPhishingScorerCreationStatus">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records the status when we create a scorer object for the client-side
@@ -105755,6 +105910,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.ServerDeterminesPhishing"
     enum="BooleanIsPhishing" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The counts for phishing verdicts given by server side model.
@@ -105763,6 +105919,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.SkipClassificationReason"
     enum="SBClientPhishingSkipClassificationReason" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The counts for various reasons why a phishing classification is skipped.
@@ -105770,6 +105927,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.TermFeatureBreakIterError">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of phishing classifications that were aborted because the term
@@ -105779,6 +105937,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.TermFeatureChunkTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that an individual chunk of term feature extraction work took.
@@ -105786,6 +105945,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.TermFeatureIterations" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of iterations that the term feature extractor took to finish.
@@ -105793,6 +105953,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.TermFeatureTimeout" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of phishing classification that were aborted because term feature
@@ -105802,6 +105963,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.TermFeatureTotalTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time that the term feature extarctor took to finish, summed across all
@@ -105810,6 +105972,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBClientPhishing.TooManyFeatures">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The number of times that the limit on the number of phishing classifier
@@ -105820,6 +105983,7 @@ uploading your change for review.
 
 <histogram name="SBClientPhishing.URLFeatureTime" units="ms"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     The time taken to extract URL features for the phishing classifier.
@@ -105827,6 +105991,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBDownloadFeedback.Activations" enum="DownloadItem.DangerType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105836,6 +106001,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBDownloadFeedback.ActiveFeedbacks" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105845,6 +106011,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBDownloadFeedback.Eligible" enum="DownloadItem.DangerType">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105854,6 +106021,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBDownloadFeedback.EmptyFilePathFailure" enum="Boolean">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Count of times download feedback cannot be sent due to empty file path.
@@ -105873,6 +106041,7 @@ uploading your change for review.
 </histogram>
 
 <histogram name="SBDownloadFeedback.SizeEligibleKB" units="KB">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105883,6 +106052,7 @@ uploading your change for review.
 
 <histogram name="SBDownloadFeedback.SizeFailure" units="bytes"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105892,6 +106062,7 @@ uploading your change for review.
 
 <histogram name="SBDownloadFeedback.SizeSuccess" units="bytes"
     expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
@@ -105901,6 +106072,7 @@ uploading your change for review.
 
 <histogram name="SBDownloadFeedback.UploadRequestedByServer"
     enum="DownloadUploadRequestedByServer">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     For each non-SAFE file, records whether the server requested that that file
@@ -105912,6 +106084,7 @@ uploading your change for review.
 
 <histogram name="SBDownloadFeedback.UploadResult"
     enum="SBDownloadFeedbackUploadResult" expires_after="M77">
+  <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <owner>mattm@chromium.org</owner>
   <summary>
