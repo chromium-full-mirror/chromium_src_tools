@@ -101357,12 +101357,18 @@ uploading your change for review.
 </histogram>
 
 <histogram name="ResourceCoordinator.Measurement.Duration" units="ms">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>The amount of wall-clock time a measurement cycle occupied.</summary>
 </histogram>
 
 <histogram name="ResourceCoordinator.Measurement.Memory.ExtraProcesses"
     units="processes">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>
     The number of unexpected processes encountered during memory measurement.
@@ -101374,6 +101380,9 @@ uploading your change for review.
 
 <histogram name="ResourceCoordinator.Measurement.Memory.LateNotification"
     enum="Boolean">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>
     A boolean that measures how often a performance measurement notification
@@ -101383,6 +101392,9 @@ uploading your change for review.
 
 <histogram name="ResourceCoordinator.Measurement.Memory.Outcome"
     enum="MemoryMeasurementOutcome">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>
     An enumeration indicating the outcome of each memory measurement attempt.
@@ -101391,6 +101403,9 @@ uploading your change for review.
 
 <histogram name="ResourceCoordinator.Measurement.Memory.UnmeasuredProcesses"
     units="processes">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>
     The number of processes that didn't get a memory measurement. This can
@@ -101400,6 +101415,9 @@ uploading your change for review.
 
 <histogram name="ResourceCoordinator.Measurement.TotalProcesses"
     units="processes">
+  <obsolete>
+    Deprecated April 2019. No longer recorded.
+  </obsolete>
   <owner>siggi@chromium.org</owner>
   <summary>
     The number of processes that were measured for CPU at least.
